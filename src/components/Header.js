@@ -5,9 +5,9 @@ const Header = ({ title }) => {
     <header>
       <div className="header">
         <a href="#default" className="logo">
-          CompanyLogo
+          CompanyLogo  <span>{title}</span>
         </a>
-        <h1>{title}</h1>
+       
         <div class="header-right">
           <a class="active" href="#home">
             Home
