@@ -1,7 +1,10 @@
-import React from "react";
-
-const About = (props) => {
-  return <p> This app ... </p>;
-};
-
+class About extends React.Component {
+    render() {
+       return (
+          <div>
+             <h1>About...</h1>
+          </div>
+       )
+    }
+ }
 export default About;
