@@ -8,20 +8,19 @@ class Home extends React.Component {
         <div className="PostsFeed">
           <div className="PostContainer">
             <div className="Post">Post Title</div>
-            <img src="../src/data/post1.jpg" alt="Fire Hazard Pollution"></img>
+            <img src={faker.image.avatar()}  alt="Fire Hazard Pollution"></img>
           </div>
           <div className="PostContainer">
             <div className="Post">Post Title</div>
-            <img src={faker.image.nature} alt="image"></img>
+            <img src={faker.image.avatar()} alt="image"></img>
           </div>
           <div className="PostContainer">
             <div className="Post">Post 3</div>
-            <img src="" alt="image"></img>
+            <img src={faker.image.avatar()} alt="image"></img>
           </div>
           <div className="PostContainer">
-            <img src="" alt="image"></img>
             <div className="Post">Post 4</div>
-            <img src="" alt="image"></img>
+            <img src={faker.image.avatar()} alt="image"></img>
           </div>
         </div>
         <div>

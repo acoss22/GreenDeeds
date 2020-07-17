@@ -102,7 +102,7 @@ code {
 
 .PostContainer{
   flex-grow: 4; /* default 0 */
-  height: 100px;
+  margin: 10px 0 10px 0;
   width: 100px;
   background: #98FB98;
   border: 2px solid white;
