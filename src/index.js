@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './components/App.js';
 import * as serviceWorker from './serviceWorker';
+import logo from './styles/logoGD.svg';
+import './styles/fonts/Raleway/static/Raleway-Medium.ttf';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>

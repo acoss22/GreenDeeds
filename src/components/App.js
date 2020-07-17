@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import ReactDOM from "react-dom";
 import { Router, Route, Link, browserHistory, IndexRoute } from "react-router";
-
+import Home from './Home';
 
 class App extends React.Component {
   render() {
@@ -15,6 +15,7 @@ class App extends React.Component {
       <div className="App">
         <Header />
         {this.props.children}
+        <Home />
       </div>
     );
   }

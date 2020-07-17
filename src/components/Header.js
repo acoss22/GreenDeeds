@@ -1,23 +1,17 @@
 import React from "react";
+import logo from '../styles/logoGD.svg';
+import Nav from './Nav';
+
 
 const Header = ({ title }) => {
   return (
     <header>
-        <nav>
-      <div className="header">
-        <a href="#default" className="logo">
-          CompanyLogo  <span>{title}</span>
+        <div className="header">
+        <a href="#default">
+          <img src={logo} alt="GD" className="logo"></img> <span className="title">{title}</span>
         </a>
-        <div className="header-right">
-          <a className="active" href="#home">
-            Home
-          </a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-     
         </div>
-      </div>
-      </nav>
+      <Nav></Nav>
     </header>
   );
 };
