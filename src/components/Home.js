@@ -1,4 +1,5 @@
 import React from "react";
+import faker from 'faker';
 
 class Home extends React.Component {
   render() {
@@ -11,7 +12,7 @@ class Home extends React.Component {
           </div>
           <div className="PostContainer">
             <div className="Post">Post Title</div>
-            <img src="" alt="image"></img>
+            <img src={faker.image.nature} alt="image"></img>
           </div>
           <div className="PostContainer">
             <div className="Post">Post 3</div>
