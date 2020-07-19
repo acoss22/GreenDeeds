@@ -1,30 +1,17 @@
 import React from "react";
-import faker from 'faker';
-
+import Post from './Post';
 class Home extends React.Component {
   render() {
     return (
       <div>
         <div className="PostsFeed">
-          <div className="PostContainer">
-            <div className="Post">Post Title</div>
-            <img src={faker.image.avatar()}  alt="Fire Hazard Pollution"></img>
-          </div>
-          <div className="PostContainer">
-            <div className="Post">Post Title</div>
-            <img src={faker.image.avatar()} alt="image"></img>
-          </div>
-          <div className="PostContainer">
-            <div className="Post">Post 3</div>
-            <img src={faker.image.avatar()} alt="image"></img>
-          </div>
-          <div className="PostContainer">
-            <div className="Post">Post 4</div>
-            <img src={faker.image.avatar()} alt="image"></img>
-          </div>
+          <Post title="Fire Hazard" />
+          <Post title="Bad smell"/>
+          <Post title="Dirty waters"/>
+          <Post title="Toxic Waste"/>
         </div>
         <div>
-        <button className="NextPage">Next Page</button>
+          <button className="NextPage">Next Page</button>
         </div>
       </div>
     );
