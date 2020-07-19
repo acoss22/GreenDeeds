@@ -4,24 +4,24 @@ import faker from "faker";
 const Post = (props) =>{
 
     return (
-      <div class="ui link cards">
-        <div class="card">
-          <div class="image">
+      <div className="ui link cards">
+        <div className="card">
+          <div className="image">
             <img src={faker.image.avatar()} alt={props.title} ></img>
           </div>
-          <div class="content">
-            <div class="header">{props.title}</div>
-            <div class="meta">
+          <div className="content">
+            <div className="header">{props.title}</div>
+            <div className="meta">
               <a>Friends</a>
             </div>
-            <div class="description">
+            <div className="description">
               Matthew is an interior designer living in New York.
             </div>
           </div>
-          <div class="extra content">
-            <span class="right floated">Joined in 2013</span>
+          <div className="extra content">
+            <span className="right floated">Joined in 2013</span>
             <span>
-              <i class="user icon"></i>
+              <i className="user icon"></i>
               75 Friends
             </span>
           </div>
