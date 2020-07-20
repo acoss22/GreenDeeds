@@ -2,7 +2,7 @@ import React from "react";
 import faker from "faker";
 
 const Post = (props) =>{
-
+  console.log(props.lat);
     return (
       <div className="ui link cards">
         <div className="card">
@@ -26,6 +26,7 @@ const Post = (props) =>{
             </span>
           </div>
         </div>
+        <p> LocationInfo : {props.lat} </p>
       </div>
     );
  

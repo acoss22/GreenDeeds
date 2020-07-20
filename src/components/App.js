@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/index.css";
 import Header from "./Header";
-
-import Home from "./Home";
+import SeasonDisplay from './SeasonDisplay';
+import Post from "./Post";
 
 class App extends React.Component {
   constructor(props) {
@@ -12,10 +12,8 @@ class App extends React.Component {
 
   componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
-      (position) => {
-        this.setState({ lat: position.coords.latitude });
-      },
-      (err) => console.log(err)
+      (position) =>  this.setState({ lat: position.coords.latitude }),
+      (err) => this.setState({ errorMessage : err.message})
     );
     console.log("My component was rendered to the screen");
     
@@ -32,9 +30,19 @@ class App extends React.Component {
       <div className="App">
         <Header />
 
-        <Home />
+        
+        <div className="PostsFeed">
+          <Post lat= {this.state.lat} title="Fire Hazard" />
+          <Post lat= {this.state.lat} title="Bad smell"/>
+          <Post lat= {this.state.lat} title="Dirty waters"/>
+          <Post lat= {this.state.lat} title="Toxic Waste"/>
+        </div>
+        <div>
+          <button className="NextPage">Next Page</button>
+        </div>
+  
         <p> Latitude: {this.state.lat} </p>
-       
+       <SeasonDisplay />
       </div>
     );
   }
