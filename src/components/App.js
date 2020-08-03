@@ -3,8 +3,7 @@ import "../styles/index.css";
 import Header from "./Header";
 import SeasonDisplay from "./SeasonDisplay";
 import Post from "./Post";
-import Time from "./Time";
-import Router from '../router'
+import Time from './Time';
 
 class App extends React.Component {
   constructor(props) {
@@ -13,6 +12,8 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+
+
     window.navigator.geolocation.getCurrentPosition(
       (position) => this.setState({ lat: position.coords.latitude }),
       (err) => this.setState({ errorMessage: err.message })
@@ -28,7 +29,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-  
+
         <div className="PostsFeed">
           <Post lat={this.state.lat} title="Fire Hazard" />
           <Post lat={this.state.lat} title="Bad smell" />
