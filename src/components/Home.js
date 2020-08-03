@@ -2,13 +2,14 @@ import React from "react";
 import SeasonDisplay from "./SeasonDisplay";
 import Post from "./Post";
 import Time from "./Time";
+import './Home.css';
 
 class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = { lat: null };
   }
-  
+
   componentDidMount() {
     window.navigator.geolocation.getCurrentPosition(
       (position) => this.setState({ lat: position.coords.latitude }),
