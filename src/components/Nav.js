@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Contact from "./Contact";
 import About from "./About";
 import "../styles/Nav.css";
-import Home from './Home';
+import Home from "./Home";
 
 class Nav extends React.Component {
   render() {
@@ -13,8 +13,7 @@ class Nav extends React.Component {
           <nav className="navbar">
             <div className="navbarList">
               <ul className="navbar-ul">
-                 
-              <li className="navbar-li">
+                <li className="navbar-li">
                   <Link to="/">GD</Link>
                 </li>
                 <li className="navbar-li">
@@ -37,13 +36,13 @@ class Nav extends React.Component {
               <Contact />
             </Route>
             <Route exact path="/">
-            <Home />
+              <Home />
             </Route>
           </Switch>
         </div>
       </Router>
     );
-    }
+  }
 }
 
 export default Nav;

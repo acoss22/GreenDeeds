@@ -9,7 +9,7 @@ import Nav from './components/Nav';
 export const Routes = () =>{
 return (
   <div>
-  <Nav />
+  <Nav title="Green Deeds" />
   <Switch>
       <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
