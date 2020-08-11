@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Contact from "./Contact";
 import About from "./About";
 import "../styles/Nav.css";
-
+import Home from './Home';
 const Nav = ({ title }) => {
     return (
       <Router>
@@ -30,7 +30,9 @@ const Nav = ({ title }) => {
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/"></Route>
+            <Route path="/home">
+            <Home />
+            </Route>
           </Switch>
         </div>
       </Router>
