@@ -12,12 +12,12 @@ const Nav = ({ title }) => {
             <div className="navbarList">
               <ul className="navbar-ul">
                 <li className="navbar-li">
-                  <Link to="/">Hedfsdsfzome</Link>
+                  <Link to="/">Home</Link>
                 </li>
-                <li>
+                <li className="navbar-li">
                   <Link to="/about">About</Link>
                 </li>
-                <li>
+                <li className="navbar-li">
                   <Link to="/contact">Contact</Link>
                 </li>
               </ul>
