@@ -11,12 +11,10 @@ return (
   <div>
   <Nav />
   <Switch>
-      <Route path="/" component={Home} />
+ 
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
-      <Route exact path="/">
-          <Redirect to="/home" />
-        </Route>
+ 
       </Switch>
     </div>
   

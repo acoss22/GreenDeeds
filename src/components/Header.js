@@ -10,9 +10,6 @@ const Header = ({ title }) => {
           <img src={logo} alt="GD" className="logo"></img> <span className="title">{title}</span>
         </a>
         </div>
-   <Router>
-    <Routes />
-  </Router>,
     </header>
   );
 };

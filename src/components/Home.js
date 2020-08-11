@@ -7,7 +7,9 @@ import '../styles/Home.css';
 class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { lat: null };
+    this.state = { 
+      title: "Green Deeds",
+      lat: null };
   }
 
   componentDidMount() {
