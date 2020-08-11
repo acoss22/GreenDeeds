@@ -2,7 +2,6 @@ import React from "react";
 import logo from '../styles/logoGD.svg';
 import Nav from './Nav';
 
-
 const Header = ({ title }) => {
   return (
     <header>
