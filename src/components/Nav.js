@@ -15,10 +15,10 @@ class Nav extends React.Component {
               <ul className="navbar-ul">
                  
               <li className="navbar-li">
-                  <Link to="/home">GD</Link>
+                  <Link to="/">GD</Link>
                 </li>
                 <li className="navbar-li">
-                  <Link to="/home">Home</Link>
+                  <Link to="/">Home</Link>
                 </li>
                 <li className="navbar-li">
                   <Link to="/about">About</Link>
@@ -30,13 +30,13 @@ class Nav extends React.Component {
             </div>
           </nav>
           <Switch>
-            <Route path="/about">
+            <Route exact path="/about">
               <About />
             </Route>
-            <Route path="/contact">
+            <Route exact path="/contact">
               <Contact />
             </Route>
-            <Route path="/home">
+            <Route exact path="/">
             <Home />
             </Route>
           </Switch>
