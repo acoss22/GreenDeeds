@@ -14,7 +14,9 @@ return (
  
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
- 
+      <Route exact path="/">
+          <Redirect to="/home" />
+        </Route>
       </Switch>
     </div>
   

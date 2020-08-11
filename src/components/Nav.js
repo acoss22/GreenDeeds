@@ -4,7 +4,9 @@ import Contact from "./Contact";
 import About from "./About";
 import "../styles/Nav.css";
 import Home from './Home';
-const Nav = ({ title }) => {
+
+class Nav extends React.Component {
+  render() {
     return (
       <Router>
         <div>
@@ -41,7 +43,7 @@ const Nav = ({ title }) => {
         </div>
       </Router>
     );
-  
+    }
 }
 
 export default Nav;
