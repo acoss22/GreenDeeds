@@ -1,22 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import App from "./App";
 import Contact from "./Contact";
 import About from "./About";
-import '../styles/nav.css';
+import "../styles/Nav.css";
 
-
-class Nav extends React.Component {
-  render() {
-
+const Nav = ({ title }) => {
     return (
       <Router>
         <div>
-          <nav>
-            <div className="header-right">
-              <ul className="ul-nav">
-                <li>
-                  <Link to="/">Home</Link>
+          <nav className="navbar">
+            <div className="navbarList">
+              <ul className="navbar-ul">
+                <li className="navbar-li">
+                  <Link to="/">Hedfsdsfzome</Link>
                 </li>
                 <li>
                   <Link to="/about">About</Link>
@@ -39,7 +35,7 @@ class Nav extends React.Component {
         </div>
       </Router>
     );
-  }
+  
 }
 
 export default Nav;

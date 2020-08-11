@@ -121,6 +121,9 @@ code {
   padding: 0;
 }
 
+.navbar{
+  background-color: greenyellow;
+}
 
 @media screen and (max-width: 500px) {
   .header a {

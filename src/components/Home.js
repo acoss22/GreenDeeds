@@ -2,7 +2,7 @@ import React from "react";
 import SeasonDisplay from "./SeasonDisplay";
 import Post from "./Post";
 import Time from "./Time";
-import './Home.css';
+import '../styles/Home.css';
 
 class Home extends React.Component {
   constructor(props) {

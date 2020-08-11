@@ -1,11 +1,8 @@
-#root .header-right ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.navbar{
+  background-color: greenyellow;
 }
 
-.ul-nav{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.nav{
+  background-color: indianred;
 }
+
