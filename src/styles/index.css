@@ -90,7 +90,6 @@ code {
 }
 
 
-
 .PostsFeed{
   display: flex;
   flex-direction: row;
@@ -113,16 +112,6 @@ code {
   padding: 5px; 
   background: 98FB98;
 
-}
-
-.header-right ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar{
-  background-color: greenyellow;
 }
 
 @media screen and (max-width: 500px) {
