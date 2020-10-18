@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/greendeeds/static/css/main.1892beb6.chunk.css",
+    "main.js": "/greendeeds/static/js/main.12206267.chunk.js",
+    "main.js.map": "/greendeeds/static/js/main.12206267.chunk.js.map",
+    "runtime-main.js": "/greendeeds/static/js/runtime-main.c030d7d2.js",
+    "runtime-main.js.map": "/greendeeds/static/js/runtime-main.c030d7d2.js.map",
+    "static/js/2.d7bcf61d.chunk.js": "/greendeeds/static/js/2.d7bcf61d.chunk.js",
+    "static/js/2.d7bcf61d.chunk.js.map": "/greendeeds/static/js/2.d7bcf61d.chunk.js.map",
+    "index.html": "/greendeeds/index.html",
+    "precache-manifest.255de153a4869f76887478f5a4b8bf69.js": "/greendeeds/precache-manifest.255de153a4869f76887478f5a4b8bf69.js",
+    "service-worker.js": "/greendeeds/service-worker.js",
+    "static/css/main.1892beb6.chunk.css.map": "/greendeeds/static/css/main.1892beb6.chunk.css.map",
+    "static/js/2.d7bcf61d.chunk.js.LICENSE.txt": "/greendeeds/static/js/2.d7bcf61d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c030d7d2.js",
+    "static/js/2.d7bcf61d.chunk.js",
+    "static/css/main.1892beb6.chunk.css",
+    "static/js/main.12206267.chunk.js"
+  ]
+}
