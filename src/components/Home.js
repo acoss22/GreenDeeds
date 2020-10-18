@@ -7,6 +7,7 @@ import '../styles/Home.css';
 class Home extends React.Component {
   constructor(props) {
     super(props);
+    
     this.state = { 
       title: "Green Deeds",
       lat: null };
@@ -44,4 +45,5 @@ class Home extends React.Component {
     );
   }
 }
+//test
 export default Home;

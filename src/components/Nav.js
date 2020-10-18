@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Contact from "./Contact";
 import About from "./About";
-import "../styles/Nav.css";
+import "../styles/nav.css";
 import Home from "./Home";
 
 class Nav extends React.Component {
