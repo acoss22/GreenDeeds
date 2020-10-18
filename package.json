@@ -1,6 +1,7 @@
 {
   "name": "greendeeds",
   "version": "0.1.0",
+  "homepage": "http://acoss22.github.io/greendeeds",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,7 +18,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "homepage": "http://acoss22.github.io/greendeeds",
+
     "start": "react-scripts start",
     "build": "webpack --config prod.config.js",
     "test": "react-scripts test",
