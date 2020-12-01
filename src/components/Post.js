@@ -12,7 +12,7 @@ const Post = (props) =>{
           <div className="content">
             <div className="header">{props.title}</div>
             <div className="meta">
-              <a>Friends</a>
+              <a href="/other">Friends</a>
             </div>
             <div className="description">
               Matthew is an interior designer living in New York.
